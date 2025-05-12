@@ -23,8 +23,8 @@ jobs:
       run: |
         pip install pandas
 
-- name: Run data processing script
-  run: |
-    python .github/workflows/remove_duplicates.py
+    - name: Run data processing script
+      run: |
+        python scripts/remove_duplicates.py
 
 
