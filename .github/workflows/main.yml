@@ -25,6 +25,6 @@ jobs:
 
     - name: Run data processing script
       run: |
-        python .github/workflows/remove_duplicates.py
+        python scripts/remove_duplicates.py
 
 
