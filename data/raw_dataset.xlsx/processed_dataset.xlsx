@@ -1,0 +1,7 @@
+# remove_duplicates.py
+import pandas as pd
+
+df = pd.read_csv('data/raw_dataset.xlsx')
+df_cleaned = df.drop_duplicates()
+df_cleaned.to_csv('data/processed_dataset.xlsx', index=False)
+
